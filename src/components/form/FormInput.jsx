@@ -4,7 +4,7 @@ const FormInput = ({ name, label, placeholder, type, ...rest }) => {
       <input
         id={name}
         name={name}
-        type="text"
+        type={type}
         className="bg-transparent rounded border-2 dark:border-dark-subtle border-light-subtle dark:focus:border-white focus:border-primary w-full text-lg outline-none p-1 dark:text-white peer transition"
         placeholder={placeholder}
         {...rest}
